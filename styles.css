@@ -1,0 +1,67 @@
+.hero-section {
+    padding: 120px 0;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+        url('/api/placeholder/1920/1080') center/cover;
+}
+
+.skill-card {
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card {
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    color: #6c757d;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #0d6efd;
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0d6efd;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.tech-stack {
+    display: inline-block;
+    padding: 0.35em 0.65em;
+    font-size: 0.85em;
+    font-weight: 500;
+    line-height: 1;
+    color: #6c757d;
+    background-color: #f8f9fa;
+    border-radius: 0.25rem;
+    margin: 0.2rem;
+}
