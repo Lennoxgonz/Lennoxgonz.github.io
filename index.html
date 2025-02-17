@@ -1,193 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lennox Gonzalez - Software Engineer</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lennox Gonzalez - Software Engineer</title>
-  <link href="styles.css" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-
-<body>
-  <!-- Nav -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
-    <div class="container">
-      <a class="navbar-brand fw-bold" href="#">Lennox Gonzalez</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Hero -->
-  <section id="about" class="hero-section">
-    <div class="container text-center">
-      <h1 class="display-4 fw-bold mb-4">Software Engineer</h1>
-      <p class="lead text-muted mb-5">
-        I am an aspiring junior software developer/engineer soon to graduate with a Bachelor's in software engineering.
-        I am proficient in Python, Java, and JavaScript/TypeScript and am confident in my ability to quickly learn to
-        use any languages, libraries, or frameworks.
-      </p>
-      <div class="d-flex justify-content-center gap-4">
-        <a href="https://github.com/Lennoxgonz" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/lennox-gonzalez-7967a2166/" target="_blank" class="social-icon"><i
-            class="fab fa-linkedin"></i></a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Skills -->
-  <section id="skills" class="bg-light">
-    <div class="container">
-      <h2 class="text-center mb-5">Technical Skills</h2>
-      <div class="row g-4">
-        <div class="col-6 col-md-3">
-          <div class="skill-card bg-white p-4 rounded shadow-sm text-center">
-            <i class="fab fa-java mb-3 text-danger" style="font-size: 2rem;"></i>
-            <h5 class="mb-0">Java</h5>
-          </div>
-        </div>
-        <div class="col-6 col-md-3">
-          <div class="skill-card bg-white p-4 rounded shadow-sm text-center">
-            <i class="fab fa-python mb-3 text-primary" style="font-size: 2rem;"></i>
-            <h5 class="mb-0">Python</h5>
-          </div>
-        </div>
-        <div class="col-6 col-md-3">
-          <div class="skill-card bg-white p-4 rounded shadow-sm text-center">
-            <i class="fab fa-js mb-3 text-warning" style="font-size: 2rem;"></i>
-            <h5 class="mb-0">JavaScript</h5>
-          </div>
-        </div>
-        <div class="col-6 col-md-3">
-          <div class="skill-card bg-white p-4 rounded shadow-sm text-center">
-            <i class="fab fa-js mb-3 text-info" style="font-size: 2rem;"></i>
-            <h5 class="mb-0">TypeScript</h5>
-          </div>
-        </div>
-        <div class="col-6 col-md-3">
-          <div class="skill-card bg-white p-4 rounded shadow-sm text-center">
-            <i class="fab fa-html5 mb-3 text-danger" style="font-size: 2rem;"></i>
-            <h5 class="mb-0">HTML</h5>
-          </div>
-        </div>
-        <div class="col-6 col-md-3">
-          <div class="skill-card bg-white p-4 rounded shadow-sm text-center">
-            <i class="fab fa-css3-alt mb-3 text-primary" style="font-size: 2rem;"></i>
-            <h5 class="mb-0">CSS</h5>
-          </div>
-        </div>
-        <div class="col-6 col-md-3">
-          <div class="skill-card bg-white p-4 rounded shadow-sm text-center">
-            <i class="fas fa-leaf mb-3 text-success" style="font-size: 2rem;"></i>
-            <h5 class="mb-0">Spring Boot</h5>
-          </div>
-        </div>
-        <div class="col-6 col-md-3">
-          <div class="skill-card bg-white p-4 rounded shadow-sm text-center">
-            <i class="fab fa-react mb-3 text-info" style="font-size: 2rem;"></i>
-            <h5 class="mb-0">React</h5>
-          </div>
+  <body>
+    <!-- Nav -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Lennox Gonzalez</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </section>
+    </nav>
 
-  <!-- Projects -->
-  <section id="projects">
-    <div class="container">
-      <h2 class="text-center mb-5">Featured Projects</h2>
-      <div class="row g-4">
-        <!-- Project 1 -->
-        <div class="col-md-6 col-lg-6">
-          <div class="project-card card h-100 border-0 shadow-sm">
-            <div class="card-body">
-              <h5 class="card-title">Scuba Gear Picker</h5>
-              <p class="card-text">Scuba Gear Picker</p>
-              <div class="mb-3">
-                <span class="tech-stack">TypeScript React</span>
-                <span class="tech-stack">Java Spring Boot</span>
+    <!-- Hero -->
+    <section id="about" class="hero-section">
+      <div class="container text-center">
+        <h1 class="display-4 fw-bold mb-4">Software Engineer</h1>
+        <p class="lead text-muted mb-5">
+          I am an aspiring junior software developer/engineer soon to graduate
+          with a Bachelor's in software engineering. I am proficient in Python,
+          Java, and JavaScript/TypeScript and am confident in my ability to
+          quickly learn to use any languages, libraries, or frameworks.
+        </p>
+        <div class="d-flex justify-content-center gap-4">
+          <a
+            href="https://github.com/Lennoxgonz"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/lennox-gonzalez-7967a2166/"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">Technical Skills</h2>
+        <div class="row g-4">
+          <div class="col-6 col-md-3">
+            <div class="skill-card bg-white p-4 rounded shadow-sm text-center">
+              <i
+                class="fab fa-java mb-3 text-danger"
+                style="font-size: 2rem"
+              ></i>
+              <h5 class="mb-0">Java</h5>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="skill-card bg-white p-4 rounded shadow-sm text-center">
+              <i
+                class="fab fa-python mb-3 text-primary"
+                style="font-size: 2rem"
+              ></i>
+              <h5 class="mb-0">Python</h5>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="skill-card bg-white p-4 rounded shadow-sm text-center">
+              <i
+                class="fab fa-js mb-3 text-warning"
+                style="font-size: 2rem"
+              ></i>
+              <h5 class="mb-0">JavaScript</h5>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="skill-card bg-white p-4 rounded shadow-sm text-center">
+              <i class="fab fa-js mb-3 text-info" style="font-size: 2rem"></i>
+              <h5 class="mb-0">TypeScript</h5>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="skill-card bg-white p-4 rounded shadow-sm text-center">
+              <i
+                class="fab fa-html5 mb-3 text-danger"
+                style="font-size: 2rem"
+              ></i>
+              <h5 class="mb-0">HTML</h5>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="skill-card bg-white p-4 rounded shadow-sm text-center">
+              <i
+                class="fab fa-css3-alt mb-3 text-primary"
+                style="font-size: 2rem"
+              ></i>
+              <h5 class="mb-0">CSS</h5>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="skill-card bg-white p-4 rounded shadow-sm text-center">
+              <i
+                class="fas fa-leaf mb-3 text-success"
+                style="font-size: 2rem"
+              ></i>
+              <h5 class="mb-0">Spring Boot</h5>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="skill-card bg-white p-4 rounded shadow-sm text-center">
+              <i
+                class="fab fa-react mb-3 text-info"
+                style="font-size: 2rem"
+              ></i>
+              <h5 class="mb-0">React</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container">
+        <h2 class="text-center mb-5">Featured Projects</h2>
+        <div class="row g-4">
+          <!-- Project 1 -->
+          <div class="col-md-6 col-lg-6">
+            <div class="project-card card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Scuba Gear Picker</h5>
+                <p class="card-text">Scuba Gear Picker</p>
+                <div class="mb-3">
+                  <span class="tech-stack">React Typescript</span>
+                  <span class="tech-stack">Spring Boot Java</span>
+                </div>
+                <div class="d-flex gap-3">
+                  <a href="" class="btn btn-outline-dark btn-sm">
+                    <i class="fab fa-github me-2"></i>Code
+                  </a>
+                  <a href="" class="btn btn-outline-primary btn-sm">
+                    <i class="fas fa-external-link-alt me-2" href=""></i>Demo
+                  </a>
+                </div>
               </div>
-              <div class="d-flex gap-3">
-                <a href="" class="btn btn-outline-dark btn-sm">
-                  <i class="fab fa-github me-2"></i>Code
-                </a>
-                <a href="" class="btn btn-outline-primary btn-sm">
-                  <i class="fas fa-external-link-alt me-2"></i>Demo
-                </a>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="col-md-6 col-lg-6">
+            <div class="project-card card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Project Pantry</h5>
+                <p class="card-text">A DIY project managment web app</p>
+                <div class="mb-3">
+                  <span class="tech-stack">React Typescript</span>
+                  <span class="tech-stack">Supabase</span>
+                  <span class="tech-stack">Firebase</span>
+                </div>
+                <div class="d-flex gap-3">
+                  <a href="" class="btn btn-outline-dark btn-sm">
+                    <i class="fab fa-github me-2"></i>Code
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://project-pantry-e2d5a.firebaseapp.com/"
+                    class="btn btn-outline-primary btn-sm"
+                  >
+                    <i class="fas fa-external-link-alt me-2"></i>Demo
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </section>
 
-        <!-- Project 2 -->
-        <div class="col-md-6 col-lg-6">
-          <div class="project-card card h-100 border-0 shadow-sm">
-            <img src="/api/placeholder/400/300" class="card-img-top" alt="Task Manager">
-            <div class="card-body">
-              <h5 class="card-title">Coming Soon</h5>
-              <p class="card-text">Coming Soon</p>
-              <div class="mb-3">
-                <span class="tech-stack"></span>
-                <span class="tech-stack"></span>
-                <span class="tech-stack"></span>
-              </div>
-              <div class="d-flex gap-3">
-                <a href="" class="btn btn-outline-dark btn-sm">
-                  <i class="fab fa-github me-2"></i>Code
-                </a>
-                <a href="" class="btn btn-outline-primary btn-sm">
-                  <i class="fas fa-external-link-alt me-2"></i>Demo
-                </a>
-              </div>
-            </div>
+    <!-- Contact Section -->
+    <section id="contact" class="bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2 class="mb-4">Get In Touch</h2>
+            <p class="lead mb-5">
+              I'm currently looking for new opportunities. Whether you have a
+              question or just want to say hi, feel free to reach out!
+            </p>
+            <p>Lennoxgonzcontact@gmail.com</p>
           </div>
         </div>
+      </div>
+    </section>
 
+    <footer class="bg-white py-4">
+      <div class="container text-center text-muted">
+        <p class="mb-0">Thank you for visiting</p>
+      </div>
+    </footer>
 
-
-        <!-- Contact Section -->
-        <section id="contact" class="bg-light">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-6 text-center">
-                <h2 class="mb-4">Get In Touch</h2>
-                <p class="lead mb-5">
-                  I'm currently looking for new opportunities. Whether you have a question or just want to say hi, feel
-                  free
-                  to reach out!
-                </p>
-                <p>Lennoxgonzcontact@gmail.com</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <footer class="bg-white py-4">
-          <div class="container text-center text-muted">
-            <p class="mb-0">Designed & Built by Lennox Gonzalez</p>
-          </div>
-        </footer>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
-</body>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
