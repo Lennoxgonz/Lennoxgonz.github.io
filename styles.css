@@ -58,6 +58,7 @@ section::after {
 
 .project-card .card-body {
   padding: 2rem;
+  background-color: var(--l-gray);
 }
 
 .nav-link {
